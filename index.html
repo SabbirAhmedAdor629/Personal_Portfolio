@@ -74,6 +74,7 @@
         .bg-teaching { background: #fdf2f8; color: #9d174d; }
         .bg-dev { background: #f0fdf4; color: #166534; }
         .bg-learning { background: #fefce8; color: #854d0e; }
+        .bg-author { background: #faf5ff; color: #6b21a8; }
 
         .timeline-dot {
             width: 11px;
@@ -194,26 +195,60 @@
                 </div>
             </div>
 
-            <!-- View: Timeline (2018 - 2025) -->
+            <!-- View: Timeline (2018 - 2026) -->
             <div id="view-timeline" class="space-y-24 max-w-4xl">
                 
-                <!-- 2024 - 2025 -->
+                <!-- 2026 -->
+                <div class="grid grid-cols-[80px_1fr] gap-8 relative">
+                    <div class="year-marker pt-2">
+                        <span class="text-2xl font-black text-slate-300">2026</span>
+                    </div>
+                    <div class="pl-8 border-l border-slate-100 space-y-8">
+                        <div class="relative" data-aos="fade-up">
+                            <div class="timeline-dot"></div>
+                            <span class="pillar-tag bg-learning">Learning</span>
+                            <h4 class="font-bold text-lg mt-2">Specialization: Machine Learning & AI</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed mb-4">I have started my intensive journey into Machine Learning, utilizing two premier global resources to build a deep theoretical and practical foundation:</p>
+                            
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl">
+                                    <p class="text-[10px] font-black text-blue-600 uppercase tracking-widest mb-1">Resource 01</p>
+                                    <p class="font-bold text-sm">Stanford University (Andrew Ng)</p>
+                                    <p class="text-xs text-slate-500 mt-1 italic">Focus: Supervised learning, neural networks, and anomaly detection.</p>
+                                </div>
+                                <div class="p-4 bg-slate-50 border border-slate-100 rounded-xl">
+                                    <p class="text-[10px] font-black text-blue-600 uppercase tracking-widest mb-1">Resource 02</p>
+                                    <p class="font-bold text-sm">Google Developers Crash Course</p>
+                                    <p class="text-xs text-slate-500 mt-1 italic">Focus: TensorFlow implementation and ML fundamental workflows.</p>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 inline-flex items-center gap-2 px-2 py-1 bg-slate-50 rounded border border-slate-100">
+                                <i class="fa-regular fa-clock text-[10px] text-slate-400"></i>
+                                <span class="text-[10px] font-bold text-slate-500">Latest Update: Jan 3, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2025 -->
                 <div class="grid grid-cols-[80px_1fr] gap-8 relative">
                     <div class="year-marker pt-2">
                         <span class="text-2xl font-black text-slate-300">2025</span>
                     </div>
                     <div class="pl-8 border-l border-slate-100 space-y-8">
                         <div class="relative" data-aos="fade-up">
+                            <div class="timeline-dot bg-pink-600"></div>
+                            <span class="pillar-tag bg-teaching">Teaching</span>
+                            <h4 class="font-bold text-lg mt-2">IGCSE / A-Level CS Head</h4>
+                            <p class="text-xs text-slate-500 font-bold mb-1">RISE School & College</p>
+                            <p class="text-sm text-slate-600 leading-relaxed">Managing CS curriculum at RISE. Implementing practical lab-based learning for advanced students and leading the department's technical vision.</p>
+                        </div>
+                        <div class="relative" data-aos="fade-up">
                             <div class="timeline-dot bg-blue-600"></div>
                             <span class="pillar-tag bg-research">Research</span>
                             <h4 class="font-bold text-lg mt-2">Neural TTS at SUST</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">Developing advanced neural text-to-speech architectures. Experimenting with voice cloning and prosody modeling.</p>
-                        </div>
-                        <div class="relative" data-aos="fade-up">
-                            <div class="timeline-dot bg-pink-600"></div>
-                            <span class="pillar-tag bg-teaching">Teaching</span>
-                            <h4 class="font-bold text-lg mt-2">IGCSE / A-Level CS Head</h4>
-                            <p class="text-sm text-slate-600 leading-relaxed">Managing CS curriculum at RISE. Implementing practical lab-based learning for advanced students.</p>
                         </div>
                     </div>
                 </div>
@@ -225,16 +260,17 @@
                     </div>
                     <div class="pl-8 border-l border-slate-100 space-y-8">
                         <div class="relative" data-aos="fade-up">
-                            <div class="timeline-dot bg-green-600"></div>
-                            <span class="pillar-tag bg-dev">Software Development</span>
-                            <h4 class="font-bold text-lg mt-2">Cloud Infrastructure @ Cloudly</h4>
-                            <p class="text-sm text-slate-600 leading-relaxed">Transitioned to full-time Backend role. Working with Go (Golang) and AWS Serverless architectures.</p>
+                            <div class="timeline-dot bg-purple-600"></div>
+                            <span class="pillar-tag bg-author">Authorship</span>
+                            <h4 class="font-bold text-lg mt-2">Published Textbook Series</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Released a 7-volume Computer Science series for schools, standardizing fundamental tech education.</p>
                         </div>
                         <div class="relative" data-aos="fade-up">
                             <div class="timeline-dot bg-pink-600"></div>
                             <span class="pillar-tag bg-teaching">Teaching</span>
-                            <h4 class="font-bold text-lg mt-2">Published Textbook Series</h4>
-                            <p class="text-sm text-slate-600 leading-relaxed">Released a 7-volume Computer Science series for schools, standardizing fundamental tech education.</p>
+                            <h4 class="font-bold text-lg mt-2">IGCSE / A-Level CS & Physics Teacher</h4>
+                            <p class="text-xs text-slate-500 font-bold mb-1">RISE School & College</p>
+                            <p class="text-sm text-slate-600 leading-relaxed">Delivering Cambridge curriculum for Computer Science and Physics. Designing interactive lab experiments.</p>
                         </div>
                     </div>
                 </div>
@@ -246,16 +282,16 @@
                     </div>
                     <div class="pl-8 border-l border-slate-100 space-y-8">
                         <div class="relative" data-aos="fade-up">
+                            <div class="timeline-dot bg-green-600"></div>
+                            <span class="pillar-tag bg-dev">Software Development</span>
+                            <h4 class="font-bold text-lg mt-2">Cloud Infrastructure @ Cloudly</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Transitioned to full-time Backend role. Working with Go (Golang) and AWS Serverless architectures to build scalable cloud solutions.</p>
+                        </div>
+                        <div class="relative" data-aos="fade-up">
                             <div class="timeline-dot"></div>
                             <span class="pillar-tag bg-research">Research</span>
                             <h4 class="font-bold text-lg mt-2">Thesis Defense: AI in Healthcare</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">Completed and defended undergraduate thesis on predictive models for disease detection using Computer Vision.</p>
-                        </div>
-                        <div class="relative" data-aos="fade-up">
-                            <div class="timeline-dot"></div>
-                            <span class="pillar-tag bg-dev">Software Development</span>
-                            <h4 class="font-bold text-lg mt-2">University Database Migration</h4>
-                            <p class="text-sm text-slate-600 leading-relaxed">Commended for implementing a new update process that optimized DIU's database performance.</p>
                         </div>
                     </div>
                 </div>
@@ -274,9 +310,9 @@
                         </div>
                         <div class="relative" data-aos="fade-up">
                             <div class="timeline-dot"></div>
-                            <span class="pillar-tag bg-teaching">Teaching</span>
-                            <h4 class="font-bold text-lg mt-2">Udvash Mentorship</h4>
-                            <p class="text-sm text-slate-600 leading-relaxed">Guided engineering admission seekers in Physics and Math, refining technical communication skills.</p>
+                            <span class="pillar-tag bg-dev">Software Development</span>
+                            <h4 class="font-bold text-lg mt-2">University Database Migration</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Commended for implementing a new update process that optimized DIU's database performance.</p>
                         </div>
                     </div>
                 </div>
@@ -314,13 +350,6 @@
                     <div class="pl-8 border-l border-slate-100 space-y-8">
                         <div class="relative" data-aos="fade-up">
                             <div class="timeline-dot"></div>
-                            <span class="pillar-tag bg-learning">Learning</span>
-                            <h4 class="font-bold text-lg mt-2">Machine Learning & AI</h4>
-                            <p class="text-xs text-slate-500 font-bold mb-1">Stanford University / Andrew Ng</p>
-                            <p class="text-sm text-slate-600 leading-relaxed">Mastered core ML concepts: Supervised learning, neural networks, and anomaly detection.</p>
-                        </div>
-                        <div class="relative" data-aos="fade-up">
-                            <div class="timeline-dot"></div>
                             <span class="pillar-tag bg-dev">Software Development</span>
                             <h4 class="font-bold text-lg mt-2">DIU IT Solutions</h4>
                             <p class="text-sm text-slate-600 leading-relaxed">Started contributing to internal university tools as a freshman, specializing in Python automation.</p>
@@ -334,6 +363,12 @@
                         <span class="text-2xl font-black text-slate-300">2018</span>
                     </div>
                     <div class="pl-8 border-l border-slate-100 space-y-8">
+                        <div class="relative" data-aos="fade-up">
+                            <div class="timeline-dot bg-pink-600"></div>
+                            <span class="pillar-tag bg-teaching">Teaching</span>
+                            <h4 class="font-bold text-lg mt-2">Udvash Mentorship</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">Guided engineering admission seekers in Physics and Math, refining technical communication skills.</p>
+                        </div>
                         <div class="relative" data-aos="fade-up">
                             <div class="timeline-dot"></div>
                             <span class="pillar-tag bg-learning">Learning</span>
@@ -381,19 +416,19 @@
                     <div class="w-12 h-12 bg-pink-100 text-pink-600 rounded-xl flex items-center justify-center mb-6">
                         <i class="fa-solid fa-chalkboard-user text-lg"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-4">Teaching</h4>
+                    <h4 class="font-bold text-xl mb-4">Teaching & Authorship</h4>
                     <ul class="text-sm text-slate-600 space-y-4">
                         <li class="flex gap-3">
-                            <span class="font-black text-[10px] text-pink-500 mt-1">2024</span>
-                            <span>Published a 7-volume series of CS textbooks.</span>
+                            <span class="font-black text-[10px] text-pink-500 mt-1">2025</span>
+                            <span>Head of Computer Science @ RISE School & College.</span>
                         </li>
                         <li class="flex gap-3">
-                            <span class="font-black text-[10px] text-pink-500 mt-1">2023</span>
-                            <span>Head of CS at RISE School & College.</span>
+                            <span class="font-black text-[10px] text-pink-500 mt-1">2024</span>
+                            <span>Published a 7-volume series of CS textbooks (Authorship).</span>
                         </li>
                         <li class="flex gap-3">
                             <span class="font-black text-[10px] text-pink-500 mt-1">2018</span>
-                            <span>Started local coaching in ICT & Programming.</span>
+                            <span>Udvash Mentorship & started local coaching in ICT.</span>
                         </li>
                     </ul>
                 </div>
@@ -406,11 +441,11 @@
                     <h4 class="font-bold text-xl mb-4">Software Dev</h4>
                     <ul class="text-sm text-slate-600 space-y-4">
                         <li class="flex gap-3">
-                            <span class="font-black text-[10px] text-green-500 mt-1">2024</span>
-                            <span>Backend Engineer @ Cloudly Infotech (Go & AWS).</span>
+                            <span class="font-black text-[10px] text-green-500 mt-1">2023</span>
+                            <span>Backend Engineer @ Cloudly (Go & AWS Serverless).</span>
                         </li>
                         <li class="flex gap-3">
-                            <span class="font-black text-[10px] text-green-500 mt-1">2023</span>
+                            <span class="font-black text-[10px] text-green-500 mt-1">2022</span>
                             <span>Lead Dev for DIU database optimization project.</span>
                         </li>
                         <li class="flex gap-3">
@@ -428,12 +463,12 @@
                     <h4 class="font-bold text-xl mb-4">Learning</h4>
                     <ul class="text-sm text-slate-600 space-y-4">
                         <li class="flex gap-3">
-                            <span class="font-black text-[10px] text-yellow-500 mt-1">2020</span>
-                            <span>MIT Software Engineering & Berkeley Mobile Dev.</span>
+                            <span class="font-black text-[10px] text-yellow-500 mt-1">2026</span>
+                            <span>Mastering Machine Learning (Stanford & Google).</span>
                         </li>
                         <li class="flex gap-3">
-                            <span class="font-black text-[10px] text-yellow-500 mt-1">2019</span>
-                            <span>Stanford ML Specialization (Prof. Andrew Ng).</span>
+                            <span class="font-black text-[10px] text-yellow-500 mt-1">2020</span>
+                            <span>MIT Software Engineering & Berkeley Mobile Dev.</span>
                         </li>
                         <li class="flex gap-3">
                             <span class="font-black text-[10px] text-yellow-500 mt-1">2018</span>
